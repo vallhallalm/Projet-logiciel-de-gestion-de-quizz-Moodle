@@ -1,16 +1,24 @@
+Ce projet est un logiciel de gestion de test au format gift. Il permet de créer, passer, parser des tests et possède un système d'identification et d'export à l'aide de fichier VCard. 
+
+Le programme est en invite de commande et développer en javascript
+
 Une [vidéo d'execution](https://github.com/vallhallalm/Projet-logiciel-de-gestion-de-quizz-Moodle/blob/main/video-demonstration_ip3VFF8h.mp4) est disponible dans le dépot
 
-Projet GL02-------------------------------------------------------------------------Sujet B-------------------------------------------------------------------------Groupe Utilité ???
+Le fichier Readme original du projet est le suivant :
 
+Projet GL02 Sujet B Groupe "Utilité ???"
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Préface : Lors de cette partie nous avons rencontré différents problèmes et notamment un problème de mauvaise écriture des données fournie. De ce fait nous avons décidé de nous
+# Préface : 
+Lors de cette partie nous avons rencontré différents problèmes et notamment un problème de mauvaise écriture des données fournie. De ce fait nous avons décidé de nous
 concentrer sur un seul type de question pour notre parseur : les questions à choix multiples. Nous avons réussi à créer des tests avec tous les types de question.
 Nous avons corrigé un fichier nommé data_test.gift qui vous sera utile pour tester notre parseur, étant donné que ce dernier ne fonctionne qu'avec ce type de fichier gift, avec une syntaxe stricte; les autres fichiers gift fournis ont beaucoup d'éléments en trop à droite et à gauche.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Quickstart : Pour démarrer notre logiciel de la meilleure des façons nous vous demanderons d'installer node.js 
+# Quickstart : 
+Pour démarrer notre logiciel de la meilleure des façons nous vous demanderons d'installer node.js 
 Nous avons utilisé les packages suivants pour concevoir ce logiciel : @caporal/core, Vcard_js, vega-lite. Ces packages sont normalement inclus dans le dossier node_modules de l'archive
 mais il est possible de devoir supprimer le dossier node_modules et de les reinstaller avec la commande "npm install"
 Après cela vous pourrez exécuter la commande suivant afin de vous lancer : "node caporalCli.js --help"
@@ -20,7 +28,7 @@ au début de votre utilisation, le système vous le rapellera. Pour réaliser de
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Descriptif des fonctionnalités : 
+# Descriptif des fonctionnalités : 
 -readme : permet d'ouvrir ce fichier dans la console (fonctionne)
 
 -select : permet de tester le parseur et de lire un fichier gift (fonctionne)
@@ -46,5 +54,5 @@ Il faut rentrer le fichier qu'on veut en argument de la fonction (important : ce
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Test unitaire : 
+# Test unitaire : 
 Des tests unitaires concernant le parseur et certaines fonctions associés au format gift ont été implémentés et sont accessibles via la commande "npm test"
