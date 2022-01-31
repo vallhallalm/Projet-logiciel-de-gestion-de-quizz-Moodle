@@ -1,8 +1,8 @@
 Ce projet est un logiciel de gestion de test au format gift. Il permet de créer, passer, parser des tests et possède un système d'identification et d'export à l'aide de fichier VCard. 
 
-Le programme est en invite de commande et développer en javascript
+Le programme est en invite de commande et est développer en javascript.
 
-Une [vidéo d'execution](https://github.com/vallhallalm/Projet-logiciel-de-gestion-de-quizz-Moodle/blob/main/video-demonstration_ip3VFF8h.mp4) est disponible dans le dépot
+Une [vidéo d'exécution](https://github.com/vallhallalm/Projet-logiciel-de-gestion-de-quizz-Moodle/blob/main/video-demonstration_ip3VFF8h.mp4) est disponible dans le dépot.
 
 Le fichier Readme original du projet est le suivant :
 
